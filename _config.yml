@@ -1,0 +1,8 @@
+# Site settings
+title: Auto-Tudela
+email: david.gil@biko2.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+

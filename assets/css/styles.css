@@ -1,0 +1,6 @@
+---
+---
+{% include plugins/bootstrap/css/bootstrap.min.css %}
+{% include plugins/flexslider/flexslider.css %}
+
+{% include css/styles.css %}
