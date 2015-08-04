@@ -313,11 +313,11 @@ select {
 }
 .header h1.logo a {
   color: #fff;
-  padding: 15px 30px;
+  padding: 25px 30px;
   display: inline-block;
   text-align: center;
   line-height: 1.4;
-  max-width: 200px;
+  max-width: 230px;
   background: #497cb1;
   -webkit-border-top-right-radius: 0;
   -webkit-border-bottom-right-radius: 4px;
@@ -638,8 +638,8 @@ select {
 }
 /* ======= Why ======= */
 .why {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 .why .title {
   font-size: 36px;
@@ -3414,7 +3414,7 @@ select {
     background-clip: padding-box;
     color: #497cb1;
     background: #fff;
-    padding-left: 0;
+    padding-left: 30px;
     padding-top: 25px;
   }
   .header.scrolled .main-nav .nav .nav-item a {
