@@ -22,7 +22,7 @@
     <![endif]-->
 </head> 
 
-<body class="home-page">   
+<body class="home-page" vocab="http://schema.org/" typeof="AutomotiveBusiness">   
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,7 +38,7 @@
     <header id="header" class="header navbar-fixed-top">  
         <div class="container">       
             <h1 class="logo">
-                <a href="/"><span class="text text-nowrap">AUTO TUDELA</span><span class="hidden">Taller y venta de coches de segunda mano en Tudela - Navarra</span></a>
+                <a href="/"><span class="text text-nowrap" property="name">AUTO TUDELA</span><span property="description" class="hidden">Taller y venta de coches de segunda mano en Tudela - Navarra</span></a>
             </h1><!--//logo-->
             <nav class="main-nav navbar-right" role="navigation">
                 <div class="navbar-header">
@@ -186,18 +186,28 @@
                 <h2 class="title">Estamos en</h2>
                 <p class="intro">Visita nuestro taller en el centro de Tudela o nuestra exposición en el polígono La Barrena.</p>
                 <div class="row">
-                    <ul class="other-info list-unstyled col-md-5 col-md-offset-1" >
-                        <li><i class="fa fa-map-marker"></i> <strong>Taller</strong> <br />C/ Donantes, 19 <br /> Tudela (Navarra)
-                            <br>
-                            <a href="tel:948410835"><i class="fa fa-phone"></i> Tél. 948 41 08 35</a>
+                    <ul class="other-info list-unstyled col-md-5 col-md-offset-1"  property="department" typeof="AutoRepair">
+                        <li><span property="name" class="hidden">AutoTudela</span><i class="fa fa-map-marker"></i> <strong property="description">Taller</strong> <br />
+                            <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <span itemprop="streetAddress"> C/ Donantes, 19</span><br>
+                                <span itemprop="addressLocality">Tudela</span> -
+                                <span itemprop="addressRegion">Navarra</span> <span itemprop="addressCountry" class="hidden">Spain</span>
+                            </address>
+                            
+                            <a href="tel:948410835" property="telephone" content="+034 948410835"><i class="fa fa-phone"></i> Tél. 948 41 08 35</a>
                         </li>
                     </ul>
 
-                    <ul class="other-info list-unstyled col-md-5" >
+                    <ul class="other-info list-unstyled col-md-5"  property="department" typeof="AutoDealer">
                         
-                        <li><i class="fa fa-map-marker"></i> <strong>Exposición y venta</strong> <br />Polígono la Barrena (Junto a Día) <br /> Tudela (Navarra)
-                            <br>
-                            <a href="tel:948826421"><i class="fa fa-phone"></i> Tél. 948 82 64 21</a>
+                        <li><span property="name" class="hidden">AutoTudela</span><i class="fa fa-map-marker"></i> <strong property="description">Exposición y venta</strong> <br />
+                             <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <span itemprop="streetAddress"> Polígono la Barrena (Junto a Día)</span><br>
+                                <span itemprop="addressLocality">Tudela</span> -
+                                <span itemprop="addressRegion">Navarra</span> <span itemprop="addressCountry" class="hidden">Spain</span>
+                            </address>
+
+                            <a href="tel:948826421" property="telephone" content="+034 948826421"><i class="fa fa-phone"></i> Tél. 948 82 64 21</a>
                         </li>
                     </ul>
                 </div><!--//row-->
